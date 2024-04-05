@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there"],
+      "responses": ["Hello! Welcome to our restaurant. How can I assist you today?"]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["What's on the menu?", "Can you show me the menu?", "I'd like to see the menu"],
+      "responses": ["Sure! Here's our menu. What would you like to order?"]
+    },
+    {
+      "tag": "order",
+      "patterns": ["I'd like to place an order", "Can I order some food?", "I want to order food"],
+      "responses": ["Of course! What would you like to order?"]
+    },
+    {
+      "tag": "specials",
+     "patterns": ["Do you have any specials?", "What are today's specials?", "Are there any discounts or specials?"],
+      "responses": ["Yes, we have some specials today. Let me tell you about them."]
+    },
+    {
+      "tag": "reservation",
+      "patterns": ["I'd like to make a reservation", "Can I reserve a table?", "Reservation please"],
+      "responses": ["Certainly! How many people will be in your party and for what time?"]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! If you need anything else, feel free to ask."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye for now"],
+      "responses": ["Goodbye! Have a great day."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that. Can you please repeat or ask in a different way?"]
+},
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What's your address?", "Where can I find you?"],
+      "responses": ["We are located at [address]."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your opening hours?", "When do you open/close?", "Are you open now?"],
+      "responses": ["Our opening hours are 9am to 10pm . We're currently open."]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": ["What do you recommend?", "Any recommendations?", "What's popular on the menu?"],
+      "responses": ["Our chef's specials are highly recommended. Would you like me to tell you more about them?"]
+    },
+    {
+      "tag": "allergy",
+      "patterns": ["Do you have options for people with allergies?", "Can you accommodate food allergies?"],
+      "responses": ["Yes, we have options for various dietary requirements. Please let us know about any allergies, and we'll ensure your meal is safe."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I want to provide feedback", "Can I give feedback?", "I'd like to leave a review"],
+      "responses": ["We appreciate your feedback! You can leave a review on our website or social media pages."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["How can I pay?", "What payment methods do you accept?", "Do you take credit cards?"],
+      "responses": ["We accept cash, credit/debit cards, and mobile payments like Apple Pay and Google Pay."]
+    },
+    {
+      "tag": "reservation_confirmation",
+      "patterns": ["Confirming my reservation", "I need to confirm my booking", "I'd like to verify my reservation"],
+      "responses": ["Your reservation for 5 at 6pm has been confirmed."]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Do you offer delivery?", "Can I get food delivered?", "Is delivery available?"],
+      "responses": ["Yes, we offer delivery services. Please provide your address for delivery options."]
+    },
+    {
+      "tag": "takeout",
+      "patterns": ["Can I order for takeout?", "Do you do takeout orders?", "Is takeout available?"],
+      "responses": ["Certainly! Would you like to place a takeout order?"]
+    },
+    {
+      "tag": "table_availability",
+      "patterns": ["Is a table available?", "Do you have a table?", "Can we get a table for 5 at 6 PM?"],
+      "responses": ["Yes, a table is available for 5 people at 6 o'clock in the evening."]
+    },
+    {
+      "tag": "reservation_availability",
+      "patterns": ["Evening at 6 o'clock", "6 PM", "At 6 in the evening", "Around 6 for dinner"],
+      "responses": ["Let me check for availability..."]
+    },
+    {
+      "tag": "reservation_details",
+      "patterns": ["We'll be a party of 5", "There will be 5 of us", "For 5 people", "We'll be 5"],
+      "responses": ["Great! And what time would you like to make the reservation for?"]
+    },
+    {
+      "tag": "book_table",
+      "patterns": ["Book the table", "Can I reserve a table?"],
+      "responses": ["Your table is booked."]
+    }
+    
+  ]
+}
